@@ -600,7 +600,7 @@ h4#comment-post-message {
 	top: 42px
 }
 .separator a,
-a[imageanchor=&quot;1&quot;] {
+a[imageanchor="1"] {
     margin-left: 0!important;
     margin-right: 0!important
 }
@@ -787,7 +787,7 @@ a[imageanchor=&quot;1&quot;] {
 }
 #cssmenu:after,
 #cssmenu > ul:after {
-    content: &quot;.&quot;;
+    content: ".";
     display: block;
     clear: both;
     visibility: hidden;
@@ -865,7 +865,7 @@ a[imageanchor=&quot;1&quot;] {
     height: 4px;
     border-bottom: 1px solid #fff;
     border-right: 1px solid #fff;
-    content: &quot;&quot;;
+    content: "";
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -960,7 +960,7 @@ a[imageanchor=&quot;1&quot;] {
     height: 4px;
     border-bottom: 1px solid #dddddd;
     border-right: 1px solid #dddddd;
-    content: &quot;&quot;;
+    content: "";
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
@@ -1041,7 +1041,7 @@ body,
     visibility: hidden;
     display: block;
     font-size: 0;
-    content: &quot; &quot;;
+    content: " ";
     clear: both;
     height: 0
 }
@@ -1165,7 +1165,7 @@ a.home-link {
 .search-box {
     z-index: 1001
 }
-.search-box input[type=&quot;submit&quot;] {
+.search-box input[type="submit"] {
     border: 0;
     background: url('https://lh3.googleusercontent.com/-f73R_wZnojI/VbPIDCbSymI/AAAAAAAAaM8/ziZTKoNMBbw/s24-Ic42/search.gif') 50% 0 no-repeat #fff;
     width: 60px;
@@ -1175,7 +1175,7 @@ a.home-link {
     right: 2px;
     top: 5px
 }
-.search-box input[type=&quot;submit&quot;]:hover {
+.search-box input[type="submit"]:hover {
     background: url('https://lh3.googleusercontent.com/-AfjQQY2DSIA/VbSX0SOdKxI/AAAAAAAAaUg/dBxfxck9a3A/s24-Ic42/search-hover.gif') 50% 0 no-repeat #fff;
     cursor: pointer;
     right: 2px
