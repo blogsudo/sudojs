@@ -743,7 +743,7 @@ a[imageanchor=&quot;1&quot;] {
 }
 
 /*--- New Menu ----*/
-#cssmenu .home &gt; a {
+#cssmenu .home > a {
     background: url(&#39;https://lh3.googleusercontent.com/-ySP7JKBvW-E/Vc3O2wuxguI/AAAAAAAAgh0/cWj9YsYfyKM/s119-Ic42/blogsudo.png&#39;) no-repeat -2px 4px #2c9ced;
     text-indent: -10000px;
     display: block;
@@ -753,18 +753,18 @@ a[imageanchor=&quot;1&quot;] {
     margin-top: 0px;
     padding-right: 1px
 }
-#cssmenu .home &gt; a:hover {
+#cssmenu .home > a:hover {
     background: url(&#39;https://lh3.googleusercontent.com/-ySP7JKBvW-E/Vc3O2wuxguI/AAAAAAAAgh0/cWj9YsYfyKM/s119-Ic42/blogsudo.png&#39;) no-repeat -2px 4px #2c9ced;
     text-indent: -10000px;
     display: block
 }
-#cssmenu .site-name &gt; a {
+#cssmenu .site-name > a {
     border-right: 1px solid #58B4F7;
     border-left: 1px solid #58B4F7;
     background: #0387E7;
     font-weight: bold
 }
-#cssmenu .site-name &gt; a:hover {
+#cssmenu .site-name > a:hover {
     background-color: #FF688F;
     color: #fff
 }
@@ -786,7 +786,7 @@ a[imageanchor=&quot;1&quot;] {
     box-sizing: border-box
 }
 #cssmenu:after,
-#cssmenu &gt; ul:after {
+#cssmenu > ul:after {
     content: &quot;.&quot;;
     display: block;
     clear: both;
@@ -811,28 +811,28 @@ a[imageanchor=&quot;1&quot;] {
     height: 0;
     background: #fff
 }
-#cssmenu &gt; ul &gt; li {
+#cssmenu > ul > li {
     float: left
 }
-#cssmenu.align-center &gt; ul {
+#cssmenu.align-center > ul {
     font-size: 0;
     text-align: center
 }
-#cssmenu.align-center &gt; ul &gt; li {
+#cssmenu.align-center > ul > li {
     display: inline-block;
     float: none
 }
 #cssmenu.align-center ul ul {
     text-align: left
 }
-#cssmenu.align-right &gt; ul &gt; li {
+#cssmenu.align-right > ul > li {
     float: right
 }
 #cssmenu.align-right ul ul {
     text-align: right
 }
-#cssmenu &gt; ul &gt; li &gt; a,
-#cssmenu &gt; ul &gt; li &gt; span.no-link {
+#cssmenu > ul > li > a,
+#cssmenu > ul > li > span.no-link {
     font-family: Arial, sans-serif;
     font-weight: bold;
     text-shadow: 1px 0 0 #005B9C;
@@ -842,22 +842,22 @@ a[imageanchor=&quot;1&quot;] {
     text-transform: uppercase;
     color: #fff
 }
-#cssmenu &gt; ul &gt; li &gt; a:hover,
-#cssmenu &gt; ul &gt; li &gt; span.no-link:hover {
+#cssmenu > ul > li > a:hover,
+#cssmenu > ul > li > span.no-link:hover {
     text-shadow: 1px 0 0 #AD002D
 }
-#cssmenu &gt; ul &gt; li:hover &gt; a,
-#cssmenu &gt; ul &gt; li.active &gt; a {
+#cssmenu > ul > li:hover > a,
+#cssmenu > ul > li.active > a {
     color: #003E6B
 }
-#cssmenu &gt; ul &gt; li.has-sub &gt; a,
-#cssmenu &gt; ul &gt; li.has-sub &gt; span.no-link {
+#cssmenu > ul > li.has-sub > a,
+#cssmenu > ul > li.has-sub > span.no-link {
     padding-right: 25px
 }
-#cssmenu &gt; ul &gt; li.has-sub &gt; a::after,
-#cssmenu &gt; ul &gt; li.has-sub &gt; span.no-link::after,
-#cssmenu &gt; ul &gt; li.has-sub &gt; span.no-link.not-expanded::after,
-#cssmenu &gt; ul &gt; li.has-sub &gt; span.no-link.not-expanded:hover::after {
+#cssmenu > ul > li.has-sub > a::after,
+#cssmenu > ul > li.has-sub > span.no-link::after,
+#cssmenu > ul > li.has-sub > span.no-link.not-expanded::after,
+#cssmenu > ul > li.has-sub > span.no-link.not-expanded:hover::after {
     position: absolute;
     top: 14px;
     right: 10px;
@@ -877,10 +877,10 @@ a[imageanchor=&quot;1&quot;] {
     -o-transition: border-color 0.2s ease;
     transition: border-color 0.2s ease
 }
-#cssmenu &gt; ul &gt; li.has-sub &gt; a:hover::after,
-#cssmenu &gt; ul &gt; li.has-sub &gt; span.no-link:hover::after,
-#cssmenu &gt; ul &gt; li.has-sub &gt; span.no-link.expanded::after,
-#cssmenu &gt; ul &gt; li.has-sub &gt; span.no-link.expanded:hover::after {
+#cssmenu > ul > li.has-sub > a:hover::after,
+#cssmenu > ul > li.has-sub > span.no-link:hover::after,
+#cssmenu > ul > li.has-sub > span.no-link.expanded::after,
+#cssmenu > ul > li.has-sub > span.no-link.expanded:hover::after {
     top: 17px;
     -webkit-transform: rotate(-135deg);
     -moz-transform: rotate(-135deg);
@@ -888,7 +888,7 @@ a[imageanchor=&quot;1&quot;] {
     -o-transform: rotate(-135deg);
     transform: rotate(-135deg);
 }
-#cssmenu &gt; ul &gt; li.has-sub:hover &gt; a::after {
+#cssmenu > ul > li.has-sub:hover > a::after {
     border-color: #003E6B
 }
 #cssmenu ul ul {
@@ -899,16 +899,16 @@ a[imageanchor=&quot;1&quot;] {
     position: absolute;
     left: -9999px
 }
-#cssmenu li:hover &gt; ul.hiding {
+#cssmenu li:hover > ul.hiding {
     left: -9999px
 }
-#cssmenu li:hover &gt; ul.showing {
+#cssmenu li:hover > ul.showing {
     left: auto
 }
-#cssmenu li:hover &gt; ul {
+#cssmenu li:hover > ul {
     left: auto
 }
-#cssmenu.align-right li:hover &gt; ul {
+#cssmenu.align-right li:hover > ul {
     right: 0
 }
 #cssmenu ul ul ul {
@@ -922,7 +922,7 @@ a[imageanchor=&quot;1&quot;] {
 #cssmenu ul ul li {
     height: 0;
 }
-#cssmenu ul li:hover &gt; ul &gt; li {
+#cssmenu ul li:hover > ul > li {
     height: 32px
 }
 #cssmenu ul ul li a,
@@ -944,15 +944,15 @@ a[imageanchor=&quot;1&quot;] {
 #cssmenu ul .no-link i.fa {
     color: #FFF;
 }
-#cssmenu ul ul li:hover &gt; a,
-#cssmenu ul ul li:hover &gt; span.no-link,
+#cssmenu ul ul li:hover > a,
+#cssmenu ul ul li:hover > span.no-link,
 #cssmenu ul ul li a:hover,
 #cssmenu ul ul li span.no-link:hover {
     color: #ffffff;
     background-color: #3D3D3D
 }
-#cssmenu ul ul li.has-sub &gt; a::after,
-#cssmenu ul ul li.has-sub &gt; span.no-link::after {
+#cssmenu ul ul li.has-sub > a::after,
+#cssmenu ul ul li.has-sub > span.no-link::after {
     position: absolute;
     top: 13px;
     right: 10px;
@@ -972,7 +972,7 @@ a[imageanchor=&quot;1&quot;] {
     -o-transition: border-color 0.2s ease;
     transition: border-color 0.2s ease
 }
-#cssmenu.align-right ul ul li.has-sub &gt; a::after {
+#cssmenu.align-right ul ul li.has-sub > a::after {
     right: auto;
     left: 10px;
     border-bottom: 0;
@@ -980,8 +980,8 @@ a[imageanchor=&quot;1&quot;] {
     border-top: 1px solid #dddddd;
     border-left: 1px solid #dddddd
 }
-#cssmenu ul ul li.has-sub:hover &gt; a::after,
-#cssmenu ul ul li.has-sub:hover &gt; span.no-link::after {
+#cssmenu ul ul li.has-sub:hover > a::after,
+#cssmenu ul ul li.has-sub:hover > span.no-link::after {
     border-color: #ffffff
 }
 #cssmenu ul li span.no-link:hover {
@@ -996,24 +996,24 @@ a[imageanchor=&quot;1&quot;] {
     -ms-user-select: none;
     user-select: none;
 }
-.fixed #cssmenu &gt; ul &gt; li.has-sub &gt; a::after,
-.fixed #cssmenu &gt; ul &gt; li.has-sub &gt; span.no-link::after,
-.fixed #cssmenu &gt; ul &gt; li.has-sub &gt; span.no-link.not-expanded:hover::after {
+.fixed #cssmenu > ul > li.has-sub > a::after,
+.fixed #cssmenu > ul > li.has-sub > span.no-link::after,
+.fixed #cssmenu > ul > li.has-sub > span.no-link.not-expanded:hover::after {
     top: 10px
 }
-.fixed #cssmenu &gt; ul &gt; li.has-sub &gt; span.no-link:hover::after,
-.fixed #cssmenu &gt; ul &gt; li &gt; span.no-link.hover-child::after {
+.fixed #cssmenu > ul > li.has-sub > span.no-link:hover::after,
+.fixed #cssmenu > ul > li > span.no-link.hover-child::after {
     top: 13px
 }
-.fixed #cssmenu &gt; ul &gt; li &gt; a,
-.fixed #cssmenu &gt; ul &gt; li &gt; span.no-link {
+.fixed #cssmenu > ul > li > a,
+.fixed #cssmenu > ul > li > span.no-link {
     padding: 9px 13px
 }
-.fixed #cssmenu &gt; ul &gt; li.has-sub &gt; a,
-.fixed #cssmenu &gt; ul &gt; li.has-sub &gt; span.no-link {
+.fixed #cssmenu > ul > li.has-sub > a,
+.fixed #cssmenu > ul > li.has-sub > span.no-link {
     padding-right: 25px
 }
-.fixed #cssmenu .home &gt; a {
+.fixed #cssmenu .home > a {
     height: 27px;
     line-height: 27px;
     background-position-y: 6px;
@@ -1152,10 +1152,10 @@ a.home-link {
     color: #929292;
     margin-top: 3px
 }
-.breadcrumbs &gt; span &gt; a:first-child {
+.breadcrumbs > span > a:first-child {
     display: inline-block;
 }
-.breadcrumbs &gt; span &gt; a:first-letter {
+.breadcrumbs > span > a:first-letter {
     text-transform: uppercase;
 }
 #search {
@@ -1200,11 +1200,11 @@ a.home-link {
     border: 0;
     outline: 0
 }
-.search-box &gt; form &gt; div {
+.search-box > form > div {
     position: relative
 }
 .search-icon,
-.inner &gt; .dtag:first-child &gt; br {
+.inner > .dtag:first-child > br {
     display: none
 }
 .search-icon.added {
@@ -1361,7 +1361,7 @@ a.home-link {
     position: absolute;
     display: inline-block
 }
-.top-posts .catw &gt; script + .bbrecpost2 {
+.top-posts .catw > script + .bbrecpost2 {
     padding-bottom: 7px;
     padding-top: 7px
 }
@@ -1660,8 +1660,8 @@ h3.post-title a, .title-summary .entry-title {
     #cssmenu ul ul li span.no-link {
         padding: 10px 8px
     }
-    #cssmenu &gt; ul &gt; li &gt; a,
-    #cssmenu &gt; ul &gt; li &gt; span.no-link {
+    #cssmenu > ul > li > a,
+    #cssmenu > ul > li > span.no-link {
         padding: 13px 15px
     }
     .post.hentry.odd,
@@ -1700,7 +1700,7 @@ h3.post-title a, .title-summary .entry-title {
         width: 100%;
         height: 40px
     }
-    #cssmenu &gt; ul.open {
+    #cssmenu > ul.open {
         height: 320px;
         overflow-x: hidden;
         overflow-y: scroll;
@@ -1710,13 +1710,13 @@ h3.post-title a, .title-summary .entry-title {
         width: 100%;
         display: none
     }
-    #cssmenu.align-center &gt; ul,
+    #cssmenu.align-center > ul,
     #cssmenu.align-right ul ul {
         text-align: left
     }
     #cssmenu ul li,
     #cssmenu ul ul li,
-    #cssmenu ul li:hover &gt; ul &gt; li {
+    #cssmenu ul li:hover > ul > li {
         width: 100%;
         height: auto;
         border-top: 1px solid #4CADF3
@@ -1727,9 +1727,9 @@ h3.post-title a, .title-summary .entry-title {
     #cssmenu ul ul li span.no-link {
         width: 100%
     }
-    #cssmenu &gt; ul &gt; li,
-    #cssmenu.align-center &gt; ul &gt; li,
-    #cssmenu.align-right &gt; ul &gt; li {
+    #cssmenu > ul > li,
+    #cssmenu.align-center > ul > li,
+    #cssmenu.align-right > ul > li {
         float: none;
         display: block
     }
@@ -1750,8 +1750,8 @@ h3.post-title a, .title-summary .entry-title {
         color: #fff;
         background: none
     }
-    #cssmenu ul ul li:hover &gt; a,
-    #cssmenu ul ul li:hover &gt; span.no-link,
+    #cssmenu ul ul li:hover > a,
+    #cssmenu ul ul li:hover > span.no-link,
     #cssmenu ul ul li a:hover,
     #cssmenu ul ul li span.no-link:hover {
         color: #fff;
@@ -1768,10 +1768,10 @@ h3.post-title a, .title-summary .entry-title {
         width: 100%;
         margin: 0
     }
-    #cssmenu &gt; ul &gt; li.has-sub &gt; a::after,
-    #cssmenu &gt; ul &gt; li.has-sub &gt; span.no-link::after,
-    #cssmenu ul ul li.has-sub &gt; a::after,
-    #cssmenu ul ul li.has-sub &gt; span.no-link::after {
+    #cssmenu > ul > li.has-sub > a::after,
+    #cssmenu > ul > li.has-sub > span.no-link::after,
+    #cssmenu ul ul li.has-sub > a::after,
+    #cssmenu ul ul li.has-sub > span.no-link::after {
         display: none
     }
     #menu-line {
@@ -1846,14 +1846,14 @@ h3.post-title a, .title-summary .entry-title {
     #cssmenu .submenu-button.submenu-opened:after, aside .widget h2:not(.mobile), aside .widget div.popular-posts:not(.mobile) {
         display: none
     }
-    #cssmenu .home &gt; a {
+    #cssmenu .home > a {
         margin-left: 15px
     }
-    #cssmenu .home &gt; a:hover {
+    #cssmenu .home > a:hover {
         background-position-x: -2px;
         background-color: #2c9ced
     }
-    #cssmenu .site-name &gt; a {
+    #cssmenu .site-name > a {
         border-right: 0;
         border-left: 0;
         background: #0387E7
@@ -1865,7 +1865,7 @@ h3.post-title a, .title-summary .entry-title {
     #cssmenu .no-link .no-link {
         display: none;
     }
-    #cssmenu .site-name &gt; a:hover,
+    #cssmenu .site-name > a:hover,
     #cssmenu ul li span.no-link:hover {
         background-color: #4CADF3
     }
@@ -1881,7 +1881,7 @@ h3.post-title a, .title-summary .entry-title {
         display: inline;
         width: 70%
     }
-    .fixed #cssmenu .home &gt; a {
+    .fixed #cssmenu .home > a {
         background-position-y: 2px;
         margin-top: 0px;
         height: 22px
@@ -2043,7 +2043,7 @@ only screen and (max-width: 767px) {
     .footer-col ul.menu li {
         list-style-type: none!important
     }
-    .fixed #cssmenu &gt; ul &gt; li.home {
+    .fixed #cssmenu > ul > li.home {
         height: 28px;
         overflow: hidden
     }
