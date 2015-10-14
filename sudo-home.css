@@ -62,18 +62,18 @@
     min-height: 450px;
     overflow: hidden
 }
+.home-right {
+    float: left;
+    width: 74%
+}
 .home-left {
     float: right;
-    width: 29%
+    width: 26%
 }
 .home-left .inner {
     margin-left: 5px;
     padding-left: 5px;
     border-right: 0
-}
-.home-right {
-    float: left;
-    width: 71%
 }
 .top-top {
     margin-top: 0

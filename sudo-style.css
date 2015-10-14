@@ -716,9 +716,13 @@ a[imageanchor="1"] {
     overflow: hidden
 }
 #top-ad .ad {
-    background-color: #FDFDFD;
+    background-color: #fdfdfd;
+    padding-top: 5px;
+    padding: 10px 0 5px 0;
     margin-bottom: 10px;
-	padding-top: 5px
+    border: 1px solid;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-radius: 4px
 }
 .live-stat {
     position:absolute;
