@@ -1,1 +1,0 @@
-if ($('.links-1 + .top-posts h5 a').length) {var tp_title = $('.links-1 + .top-posts h5 a').html();tp_title = tp_title.replace('Tin thời sự', 'Bài hay nhất');$('.links-1 + .top-posts h5 a').html(tp_title);}
