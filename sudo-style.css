@@ -1443,12 +1443,11 @@ a.home-link {
     padding: 20px;
     text-align: center
 }
-.home-left .top-posts,
-.home-left .links {
+.home-left .top-posts {
     padding-bottom: 5px
 }
 .home-left .links {
-    padding: 5px;
+    padding: 10px;
     overflow: hidden
 }
 .top-posts .catw {
