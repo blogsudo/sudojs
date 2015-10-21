@@ -500,6 +500,15 @@ h4#comment-post-message {
 .post-body a:visited {
     color: #1B6F7E;
 }
+.post-body h2 {
+    font-weight: normal;
+    font-size: 38px;
+    border-bottom: #E0E0E0 1px solid;
+    margin-bottom: 30px;
+    width: 100%;
+    line-height: 120%;
+    margin-top: 30px
+}
 #body-content .post-body a:link,
 #body-content .post-body a:visited {
     color: #333;
