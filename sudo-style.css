@@ -728,7 +728,8 @@ a[imageanchor="1"] {
     margin-bottom: 0;
     overflow: hidden
 }
-#top-ad .ad {
+#top-ad .ad,
+.r-content .ad {
     background-color: #fdfdfd;
     padding-top: 5px;
     padding: 10px 0 5px 0;
