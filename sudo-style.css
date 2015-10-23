@@ -2282,7 +2282,6 @@ print {
     }
 }
 @media (max-width: 435px) {
-    #google-ads-1,
     #google-ads-2,
     #google-ads-3 {
         width: 300px;
