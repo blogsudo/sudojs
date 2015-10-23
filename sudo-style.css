@@ -605,8 +605,6 @@ h4#comment-post-message {
     margin-top: 0;
     margin-left: 10px;
     max-width: 300px;
-	position: fixed;
-	top: 42px
 }
 .separator a,
 a[imageanchor="1"] {
@@ -716,6 +714,11 @@ a[imageanchor="1"] {
 }
 .r-content .box-2 {
     margin-top:0
+}
+#topad {
+    max-height: 90px;
+    overflow: hidden;
+    margin-top: 10px
 }
 #top-ad,
 #bottom-ad,
