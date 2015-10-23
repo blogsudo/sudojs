@@ -742,7 +742,7 @@ a[imageanchor="1"] {
 }
 .live-stat {
     position:absolute;
-    right:2px;
+    right:0;
     top:0;
     background-color: #45B1FF;
     padding: 0 10px;
@@ -2289,7 +2289,6 @@ print {
     }
 }
 @media (max-width: 400px) {
-    #google-ads-1,
     #google-ads-2,
     #google-ads-3 {
         width: 250px;
