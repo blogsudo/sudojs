@@ -1694,7 +1694,7 @@ h3.post-title a, .title-summary .entry-title {
         min-height: 0
     }
 }
-@media all and (max-width: 767px) {
+@media all and (max-width: 768px) {
     .fourcol .section,
     .widget#HTML2 {
         margin: 0;
@@ -1930,6 +1930,9 @@ h3.post-title a, .title-summary .entry-title {
         margin: 0;
         padding: 5px 0 0
     }
+    .r-content .ad { 
+        padding: 10px 10px 5px 10px
+    }
     .main-container .mobile ul li {
         display: block;
         width: 100%;
@@ -1974,7 +1977,7 @@ h3.post-title a, .title-summary .entry-title {
     }
 }
 @media handheld,
-only screen and (max-width: 767px) {
+only screen and (max-width: 768px) {
     body {
         -webkit-animation: opacity 1s;
         -moz-animation: opacity 1s;
@@ -2270,7 +2273,7 @@ print {
         width: 200px;
     }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     #google-ads-2 {
         width: 336px;
     }
