@@ -150,26 +150,7 @@ h3.post-title .post-icons a {
 .post:first-child.hentry .post-summary h3.post-title {
     margin-top: 10px
 }
-@media (max-width: 990px) {
-    #google-ads-1 {
-        width: 250px
-    }
-    #google-ads-3 {
-        width: 300px
-    }
-}
-@media (max-width: 837px) {
-    #google-ads-1 {
-        width: 200px
-    }
-    #google-ads-3 {
-        width: 250px
-    }
-}
-@media (max-width: 767px) {
-    #google-ads-1 {
-        width: 336px
-    }
+@media (min-width: 768px) {
     #google-ads-3 {
         width: 336px
     }
