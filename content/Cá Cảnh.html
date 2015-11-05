@@ -2,9 +2,44 @@
   <head>
     <base target="_parent" />
     <title>Ca Canh</title>
-    <link href="//files.blogsudo.com/iframe-style-min.css" rel="stylesheet">
+    <link href="../iframe-style-min.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+      function NewsTickerAutoPlay() {
+          $(".NewsTicker li:first-child").slideUp(function () {
+              $(this).appendTo(".NewsTicker").fadeIn();
+          });
+      }
+      
+      $(document).ready(function() {
+        timer = setInterval(function () {
+            NewsTickerAutoPlay()
+        }, 3000);
+        $('.NewsTicker').hover(function(ev){
+            clearInterval(timer);
+        }, function(ev){
+        timer = setInterval(function () {
+            NewsTickerAutoPlay()
+        }, 3000);
+        });
+      });
+    </script>
   </head>
   <body>
-  <a href="http://cacanh.blogsudo.com"> 1. Kỹ thuật nuôi cá cảnh</a><br />
-  2. Kỹ thuật làm bể cá cảnh</body>
+    <div class="ticker-container">
+      <div class="ticker-caption">
+        <p>Xem >></p>
+      </div>
+      <ul class="NewsTicker">
+        <li><span><a href="http://cacanh.blogsudo.com">Cá cảnh</a></span></li>
+        <li><span><a href="http://becacanh.blogsudo.com">Bể cá cảnh</a></span></li>
+        <li><span><a href="http://tomtepcanh.blogsudo.com">Tép cảnh</a></span></li>
+        <li><span><a href="http://chimcanh.blogsudo.com">Chim cảnh</a></span></li>
+        <li><span><a href="http://gada.blogsudo.com">Gà đá</a></span></li>
+        <li><span><a href="http://chocanh.blogsudo.com">Chó cảnh</a></span></li>
+        <li><span><a href="http://nuoimeo.blogsudo.com">Nuôi mèo</a></span></li>
+        <li><span><a href="http://caycanh.blogsudo.com">Cây cảnh</a></span></li>
+      </ul>
+    </div>
+  </body>
 </html>

@@ -10,8 +10,26 @@ a {
     font-size: 12px;
     color: #111;
     text-decoration: none;
-    line-height: 20px;
+    line-height: 20px
 }
 a:hover {
     text-decoration: underline
+}
+.NewsTicker {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    line-height:20px;
+    height:20px;
+    overflow:hidden
+}
+.ticker-container {
+
+}
+.ticker-container .ticker-caption {
+    line-height: 20px
+}
+.ticker-container .ticker-caption p {
+    float: left;
+    margin-right: 10px
 }
