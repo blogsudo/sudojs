@@ -36,12 +36,12 @@
 .date-outer .date-outer {
     display: none
 }
-.post.hentry.odd,
-.post.hentry.even {
+.home-right .odd,
+.home-right .even {
     width: 50%;
     float: left
 }
-.post.hentry .post-i {
+.home-right .post-i {
     position: relative;
     padding-bottom: 10px;
     border-top: 1px solid #e1e1e1
@@ -52,12 +52,12 @@
 .post:first-child.hentry .post-sum {
     margin-bottom: 10px
 }
-.post.hentry.odd .post-i {
+.home-right .odd .post-i {
     margin-right: 5px;
     min-height: 450px;
     overflow: hidden
 }
-.post.hentry.even .post-i {
+.home-right .even .post-i {
     margin-left: 5px;
     min-height: 450px;
     overflow: hidden
