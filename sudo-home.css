@@ -123,8 +123,7 @@ a.timestamp-link {
     overflow: hidden;
     margin-bottom: 0px
 }
-.post:first-child .main-img,
-.post:last-child.odd .main-img {
+.post.hentry.first .main-img {
     max-height: 230px
 }
 .main-img img {
