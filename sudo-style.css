@@ -150,7 +150,7 @@ table td {
 }
 pre,
 code {
-    font-family: &#39;Courier New&#39;, Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     border-left: 4px solid #ddd;
     margin: 10px 0;
     padding: 5px;
@@ -443,7 +443,7 @@ a:active,
     float: left
 }
 #blog-pager-older-link {
-    background: url(&#39;http://4.bp.blogspot.com/-xmy6hc0OIkk/VLzMGdtpTXI/AAAAAAAAEDo/e31Tm4-6kD0/s1600/xem-bai-cu-hon.gif&#39;) no-repeat 0 0;
+    background: url('http://4.bp.blogspot.com/-xmy6hc0OIkk/VLzMGdtpTXI/AAAAAAAAEDo/e31Tm4-6kD0/s1600/xem-bai-cu-hon.gif') no-repeat 0 0;
     width: 245px
 }
 .show,
@@ -795,7 +795,7 @@ a[imageanchor="1"] {
 
 /*--- New Menu ----*/
 #cssmenu .home > a {
-    background: url(&#39;https://lh3.googleusercontent.com/-ySP7JKBvW-E/Vc3O2wuxguI/AAAAAAAAgh0/cWj9YsYfyKM/s119-Ic42/blogsudo.png&#39;) no-repeat -2px 0 #2c9ced;
+    background: url('https://lh3.googleusercontent.com/-ySP7JKBvW-E/Vc3O2wuxguI/AAAAAAAAgh0/cWj9YsYfyKM/s119-Ic42/blogsudo.png') no-repeat -2px 0 #2c9ced;
     text-indent: -10000px;
     display: block;
     padding: 0;
@@ -805,7 +805,7 @@ a[imageanchor="1"] {
     padding-right: 1px
 }
 #cssmenu .home > a:hover {
-    background: url(&#39;https://lh3.googleusercontent.com/-ySP7JKBvW-E/Vc3O2wuxguI/AAAAAAAAgh0/cWj9YsYfyKM/s119-Ic42/blogsudo.png&#39;) no-repeat -2px 0 #2c9ced;
+    background: url('https://lh3.googleusercontent.com/-ySP7JKBvW-E/Vc3O2wuxguI/AAAAAAAAgh0/cWj9YsYfyKM/s119-Ic42/blogsudo.png') no-repeat -2px 0 #2c9ced;
     text-indent: -10000px;
     display: block
 }
@@ -1117,7 +1117,7 @@ body,
 }
 #cssmenu li.blogsudo a,
 #cssmenu li.blogsudo a:hover {
-    background: url(&#39;http://3.bp.blogspot.com/-6H9FvYy0ZWw/VLykHk6G9UI/AAAAAAAAECE/IU_I2htCKHE/s1600/blogsudo_logo.gif&#39;) no-repeat 8px 6px transparent;
+    background: url('http://3.bp.blogspot.com/-6H9FvYy0ZWw/VLykHk6G9UI/AAAAAAAAECE/IU_I2htCKHE/s1600/blogsudo_logo.gif') no-repeat 8px 6px transparent;
     width: 125px;
     height: 34px;
     text-indent: -10000px;
@@ -1192,7 +1192,7 @@ a.home-link {
 }
 .search-box input[type="submit"] {
     border: 0;
-    background: url(&#39;https://lh3.googleusercontent.com/-f73R_wZnojI/VbPIDCbSymI/AAAAAAAAaM8/ziZTKoNMBbw/s24-Ic42/search.gif&#39;) 50% 0 no-repeat #fff;
+    background: url('https://lh3.googleusercontent.com/-f73R_wZnojI/VbPIDCbSymI/AAAAAAAAaM8/ziZTKoNMBbw/s24-Ic42/search.gif') 50% 0 no-repeat #fff;
     width: 60px;
     height: 24px;
     text-indent: -10000px;
@@ -1201,7 +1201,7 @@ a.home-link {
     top: 5px
 }
 .search-box input[type="submit"]:hover {
-    background: url(&#39;https://lh3.googleusercontent.com/-AfjQQY2DSIA/VbSX0SOdKxI/AAAAAAAAaUg/dBxfxck9a3A/s24-Ic42/search-hover.gif&#39;) 50% 0 no-repeat #fff;
+    background: url('https://lh3.googleusercontent.com/-AfjQQY2DSIA/VbSX0SOdKxI/AAAAAAAAaUg/dBxfxck9a3A/s24-Ic42/search-hover.gif') 50% 0 no-repeat #fff;
     cursor: pointer;
     right: 2px
 }
@@ -1238,7 +1238,7 @@ a.home-link {
 .search-icon.added a {
     width: 20px;
     height: 22px;
-    background: url(&#39;https://lh3.googleusercontent.com/-JPdyrO5jWS8/Vbd6U4dFSxI/AAAAAAAAarU/6LFCL8Wz4hM/s20-Ic42/search-icon.png&#39;) 0 2px no-repeat;
+    background: url('https://lh3.googleusercontent.com/-JPdyrO5jWS8/Vbd6U4dFSxI/AAAAAAAAarU/6LFCL8Wz4hM/s20-Ic42/search-icon.png') 0 2px no-repeat;
     position: absolute;
     right: 3px;
     top: 3px;
@@ -1368,7 +1368,7 @@ a.home-link {
 .top-title a.view-all {
     border: 0;
     font-size: 10px;
-    background: url(&#39;https://lh3.googleusercontent.com/-NUjEva-GfV0/VcevAc4YVNI/AAAAAAAAe84/vHr6xSuypH8/s9-Ic42/view-more.gif&#39;) no-repeat 5px 6px transparent;
+    background: url('https://lh3.googleusercontent.com/-NUjEva-GfV0/VcevAc4YVNI/AAAAAAAAe84/vHr6xSuypH8/s9-Ic42/view-more.gif') no-repeat 5px 6px transparent;
     height: 9px;
     width: 7px;
     text-indent: -9999px;
@@ -1564,7 +1564,7 @@ a.home-link {
 .item-right .inner {
     padding-left: 10px
 }
-img[width=&#39;1&#39;] {
+img[width='1'] {
     display: none;
 }
 .adsbygoogle {
@@ -1790,7 +1790,7 @@ h3.post-title a, .title-summary .entry-title {
         height: 30px
     }
     #cssmenu #menu-button::after {
-        content: &#39;&#39;;
+        content: '';
         position: absolute;
         top: 9px;
         right: 20px;
@@ -1800,7 +1800,7 @@ h3.post-title a, .title-summary .entry-title {
         background: #fff
     }
     #cssmenu #menu-button::before {
-        content: &#39;&#39;;
+        content: '';
         position: absolute;
         top: 14px;
         right: 20px;
@@ -1826,7 +1826,7 @@ h3.post-title a, .title-summary .entry-title {
 		right: -1px
     }
     #cssmenu .submenu-button::after {
-        content: &#39;&#39;;
+        content: '';
         position: absolute;
         top: 10px;
         left: 15px;
@@ -1837,7 +1837,7 @@ h3.post-title a, .title-summary .entry-title {
         z-index: 99
     }
     #cssmenu .submenu-button::before {
-        content: &#39;&#39;;
+        content: '';
         position: absolute;
         left: 10px;
         top: 15px;
@@ -1902,7 +1902,7 @@ h3.post-title a, .title-summary .entry-title {
     .search-icon a {
         width: 20px;
         height: 22px;
-        background: url(&#39;https://lh3.googleusercontent.com/-JPdyrO5jWS8/Vbd6U4dFSxI/AAAAAAAAarU/6LFCL8Wz4hM/s20-Ic42/search-icon.png&#39;) 0 2px no-repeat;
+        background: url('https://lh3.googleusercontent.com/-JPdyrO5jWS8/Vbd6U4dFSxI/AAAAAAAAarU/6LFCL8Wz4hM/s20-Ic42/search-icon.png') 0 2px no-repeat;
         position: absolute;
         right: 50px;
         top: 4px;
