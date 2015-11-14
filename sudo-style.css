@@ -509,6 +509,14 @@ h4#comment-post-message {
     line-height: 120%;
     margin-top: 30px
 }
+.post-body h3, 
+.post-body h4,
+.post-body h5,
+.post-body h6 {
+    margin: 20px 0;
+    border-bottom: 1px dotted #D0D1D5;
+    padding-bottom: 5px;
+}
 #body-content .post-body a:link,
 #body-content .post-body a:visited {
     color: #333;
