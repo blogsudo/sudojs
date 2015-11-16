@@ -513,7 +513,7 @@ h4#comment-post-message {
 .post-body h4,
 .post-body h5,
 .post-body h6 {
-    margin: 20px 0;
+    margin: 25px 0;
     border-bottom: 1px dotted #D0D1D5;
     padding-bottom: 5px;
 }
