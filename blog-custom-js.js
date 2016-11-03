@@ -1,7 +1,7 @@
 (function($){
-$(document).on('blur', 'input, textarea', function() {
-    setTimeout(function() {
-        window.scrollTo(document.body.scrollLeft, document.body.scrollTop);
-    }, 0);
-});
+    $(document).on('focus', 'textarea,input,select', function() {
+        $('header').css('position', 'absolute');
+    }).on('blur', 'textarea,input,select', function() {
+        $('header').css('position', '');
+    });
 })(jQuery);
