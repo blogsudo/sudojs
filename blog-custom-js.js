@@ -1,6 +1,6 @@
 (function($){
   $(document).ready(function() {
-    if (Modernizr.touch) {
+    if ('ontouchstart' in window) {
         /* cache dom references */ 
         var $body = jQuery('body'); 
 
