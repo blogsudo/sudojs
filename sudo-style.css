@@ -770,8 +770,16 @@ a[imageanchor="1"] {
     padding: 0
 }
 .r-content.HTML .ad { 
-	height: 32px;
+	height: auto;
 	overflow: hidden
+}
+.r-content.HTML .ad a {
+  font-size: 13px;
+  margin: 6px 5px 4px; 
+  display: inline-block
+}
+.r-content.HTML .ad a span {
+  color:red
 }
 .r-content iframe {
 	width: 100%;
