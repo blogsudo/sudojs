@@ -11,4 +11,5 @@ $(document).ready(function(){
     first_img = first_img.replace('/w466-h272-c/', '/w569-h333-c/');
     $('.post.first:first-child .post-i .main-img img').attr('src',first_img);
   }
+  $('.sushop').html('<span style="position: relative;top: -1px;">» </span><a href="http://bit.ly/h_xa_hang_phut_chot_lazada" target="_blank" rel="nofollow">Xả hàng phút chót tại Lazada, xem và mua ngay để không bỏ lỡ khuyến mãi khủng!</a>');
 });
