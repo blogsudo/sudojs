@@ -10,7 +10,7 @@ $(document).ready(function(){
   $('.widget .post-body ul').prev().find('br:last-child').css('display','none');
   $('.widget .post-body ul').prev().find('br:last-child').prev().css('line-height','40px');
   // Add fonts
-  $('head link').eq(0).before('<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">');
+  $('head link').eq(0).before('<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400&subset=vietnamese,latin-ext" rel="stylesheet">');
   $('head').append('<style type="text/css">strong,body{font-family:\'Roboto\',sans-serif;font-weight:400}.footer-menu a.menu-title,.is-loading,#cssmenu>ul>li>a,#cssmenu>ul>li>span.no-link{font-family:\'Roboto\',sans-serif;font-weight:300}.title-summary .entry-title,h2.post-title a,h3.post-title a{font-family:\'Roboto\',Arial,sans-serif!important;font-weight:300}h1,h2,h3,h4,h5,h6{font-family:\'Roboto\',Arial,sans-serif;font-weight:300}</style>');
   // Add ads
   if (domain == 'cacanh.blogsudo.com') {
