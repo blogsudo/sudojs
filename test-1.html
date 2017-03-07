@@ -4,7 +4,7 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
     <!--<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab|Quicksand|Quicksand:300|Nunito:200|Nunito:300|Nunito" rel="stylesheet" type="text/css" />-->
     <!--<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" async=""></script>-->
-    <script>
+    <!--<script>
       WebFontConfig = {
         google: {
           families: ['Quicksand:300,400']
@@ -16,6 +16,24 @@
         wf.async = true;
         s.parentNode.insertBefore(wf, s);
       })(document);
+    </script>-->
+    <!-- Google API Loader -->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+
+    <script type="text/javascript">
+    //load jQuery
+    google.load("jquery", "1.7.1");
+
+    //Google Fonts
+    google.load("webfont", "1");
+
+    google.setOnLoadCallback(function() {
+        WebFont.load({
+            google: {
+              families: ['Quicksand:300,400', 'Roboto:200,300']
+            }
+        });
+    });
     </script>
     <style>
       body {font-family: 'Quicksand', sans-serif; font-weight: 400;}
