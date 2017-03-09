@@ -15,16 +15,20 @@ $(document).ready(function(){
   // Hover effect
   $("#cat-menu li.has-sub ul").hover(function() {
     $(this).parent().addClass('hovered');
+    $(this).parent().removeClass('closed');
   }, function() {
     $(this).parent().removeClass('hovered');
+    $(this).parent().addClass('closed');
   }); 
   // Menu click effect 
   $("#cat-menu li.has-sub .parent-label").click(function(){ 
     $(this).parent().addClass('hovered');
+    $(this).parent().removeClass('closed');
     $(this).next().show();
   });
   $("#cat-menu .close").click(function(){ 
     $(this).parent().parent().removeClass('hovered'); 
+     $(this).parent().parent().addClass('closed');
     $(this).parent().hide();
   });
   $(document).mouseup(function (e) {
