@@ -22,7 +22,7 @@ $(document).ready(function(){
   $("#cat-menu li.has-sub").click(function(){
     $(this).addClass('hovered');
   });
-  $("#cat-menu .close").click(function(){
+  $("#cat-menu .close").click(function(){ 
     $(this).removeClass('hovered');
   });
   // Add ads
