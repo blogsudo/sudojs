@@ -33,7 +33,7 @@ $(document).ready(function(){
         && container.has(e.target).length === 0) // ... nor a descendant of the container
       {
         container.hide();
-      } 
+      }
   });
   // Add ads
   if (domain == 'cacanh.blogsudo.com') {
