@@ -20,10 +20,10 @@ $(document).ready(function(){
   }); 
   // Menu click effect 
   $("#cat-menu li.has-sub .parent-label").click(function(){ 
-    $(this).addClass('hovered');
+    $(this).parent().addClass('hovered');
   });
   $("#cat-menu .close").click(function(){ 
-    $(this).parent().parent().find('.parent-label').removeClass('hovered'); 
+    $(this).parent().parent().removeClass('hovered'); 
   });
   // Add ads
   if (domain == 'cacanh.blogsudo.com') {
