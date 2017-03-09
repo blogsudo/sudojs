@@ -25,7 +25,7 @@ $(document).ready(function(){
     $(this).parent().addClass('hovered');
     $(this).parent().removeClass('closed');
     $(this).next().show();
-  }); 
+  });
   $("#cat-menu .close").click(function(){ 
     $(this).parent().parent().removeClass('hovered'); 
      $(this).parent().parent().addClass('closed');
