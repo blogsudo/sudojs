@@ -19,7 +19,7 @@ $(document).ready(function(){
     $(this).parent().removeClass('hovered');
   }); 
   // Menu click effect 
-  $("#cat-menu li.has-sub").click(function(){
+  $("#cat-menu li.has-sub .parent-label").click(function(){
     $(this).addClass('hovered');
   });
   $("#cat-menu .close").click(function(){ 
