@@ -24,6 +24,7 @@ $(document).ready(function(){
   });
   $("#cat-menu .close").click(function(){ 
     $(this).parent().parent().removeClass('hovered'); 
+    $(this).next().hide();
   }); 
   // Add ads
   if (domain == 'cacanh.blogsudo.com') {
