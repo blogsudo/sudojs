@@ -26,7 +26,7 @@ $(document).ready(function(){
   $("#cat-menu .close").click(function(){ 
     $(this).parent().parent().removeClass('hovered'); 
     $(this).parent().hide();
-  }); 
+  });
   $(document).mouseup(function (e) {
       var container = $("#cat-menu li.has-sub ul");
       if (!container.is(e.target) // if the target of the click isn't the container...
