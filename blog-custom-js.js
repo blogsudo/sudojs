@@ -23,7 +23,7 @@ $(document).ready(function(){
     $(this).addClass('hovered');
   });
   $("#cat-menu .close").click(function(){ 
-    $(this).removeClass('hovered');
+    $(this).parent().removeClass('hovered');
   });
   // Add ads
   if (domain == 'cacanh.blogsudo.com') {
