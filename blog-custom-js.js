@@ -21,6 +21,7 @@ $(document).ready(function(){
   // Menu click effect 
   $("#cat-menu li.has-sub .parent-label").click(function(){ 
     $(this).parent().addClass('hovered');
+    $(this).next().show();
   });
   $("#cat-menu .close").click(function(){ 
     $(this).parent().parent().removeClass('hovered'); 
