@@ -38,7 +38,7 @@ $(document).ready(function(){
       {
         container.hide();
         $("#cat-menu li.has-sub").addClass('closed');
-      }
+      } 
   });
   // Add ads
   if (domain == 'cacanh.blogsudo.com') {
