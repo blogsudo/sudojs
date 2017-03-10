@@ -43,7 +43,7 @@ $(document).ready(function(){
         $("#cat-menu li.has-sub").removeClass('hovered');
         $("#cat-menu li.has-sub").addClass('closed'); 
       }
-      var main_container = $("#cat-menu");
+      var main_container = $("#cat-menu.clicked");
       if (!main_container.is(e.target)
         && main_container.has(e.target).length === 0)
       {
