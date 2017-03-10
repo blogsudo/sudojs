@@ -44,7 +44,7 @@ $(document).ready(function(){
         $("#cat-menu li.has-sub").addClass('closed'); 
       }
       var main_container = $("#cat-menu.clicked");
-      if (!main_container.is(e.target) && !main_container.is('#cat-button')
+      if (!main_container.is(e.target) && !main_container.is('#cat-button') 
         && main_container.has(e.target).length === 0)
       {
         main_container.hide();
