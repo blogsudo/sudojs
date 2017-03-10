@@ -36,7 +36,7 @@ $(document).ready(function(){
   });
   $("#cat-button").click(function(){ 
     $(this).toggleClass('clicked');
-  });
+  }); 
   $(document).mouseup(function (e) {
       var container = $("#cat-menu li.hovered ul");
       if (!container.is(e.target) // if the target of the click isn't the container...
