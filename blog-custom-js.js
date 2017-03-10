@@ -32,7 +32,7 @@ $(document).ready(function(){
     $(this).parent().hide();
   });
   $("#cat-button").click(function(){ 
-    $(this).next().toggleClass('clicked');
+    $('#cat-menu').toggleClass('clicked');
   });
   $("#cat-button").click(function(){ 
     $(this).toggleClass('clicked');
