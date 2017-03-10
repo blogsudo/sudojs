@@ -31,9 +31,6 @@ $(document).ready(function(){
      $(this).parent().parent().addClass('closed');
     $(this).parent().hide();
   });
-  $("#cat-button").click(function(){ 
-    $('#cat-menu').toggleClass('clicked');
-  });
   $("#cat-button").click(function(){
     $(this).toggleClass('clicked');
   }); 
@@ -50,7 +47,7 @@ $(document).ready(function(){
       if (!main_container.is(e.target) && !main_container.is('#cat-button') 
         && main_container.has(e.target).length === 0)
       {
-        //main_container.hide(); 
+        main_container.hide(); 
         $("#cat-menu").removeClass('clicked');
       } 
   });
