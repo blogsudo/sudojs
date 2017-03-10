@@ -31,6 +31,9 @@ $(document).ready(function(){
      $(this).parent().parent().addClass('closed');
     $(this).parent().hide();
   });
+  $("#cat-menu").click(function(){ 
+    $(this).toggleClass('clicked');
+  });
   $(document).mouseup(function (e) {
       var container = $("#cat-menu li.hovered ul");
       if (!container.is(e.target) // if the target of the click isn't the container...
@@ -39,6 +42,13 @@ $(document).ready(function(){
         container.hide();
         $("#cat-menu li.has-sub").removeClass('hovered');
         $("#cat-menu li.has-sub").addClass('closed'); 
+      }
+      var main_container = $("#cat-menu");
+      if (!main_container.is(e.target)
+        && main_container.has(e.target).length === 0)
+      {
+        main_container.hide();
+        $("#cat-menu").removeClass('clicked');
       } 
   });
   // Add ads
