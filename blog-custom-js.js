@@ -31,8 +31,8 @@ $(document).ready(function(){
      $(this).parent().parent().addClass('closed');
     $(this).parent().hide();
   });
-  $("#cat-menu").click(function(){ 
-    $(this).toggleClass('clicked');
+  $("#cat-button").click(function(){ 
+    $(this).next().toggleClass('clicked');
   });
   $(document).mouseup(function (e) {
       var container = $("#cat-menu li.hovered ul");
