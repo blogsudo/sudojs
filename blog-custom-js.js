@@ -43,13 +43,6 @@ $(document).ready(function(){
         $("#cat-menu li.has-sub").removeClass('hovered');
         $("#cat-menu li.has-sub").addClass('closed'); 
       }
-      var main_container = $("#cat-menu.clicked");
-      if (!main_container.is(e.target) && !main_container.is('#cat-button') 
-        && main_container.has(e.target).length === 0)
-      {
-        main_container.hide(); 
-        $("#cat-menu").removeClass('clicked');
-      } 
   });
   // Add ads
   if (domain == 'cacanh.blogsudo.com') {
