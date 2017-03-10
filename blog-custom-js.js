@@ -34,7 +34,7 @@ $(document).ready(function(){
   $("#cat-button").click(function(){ 
     $('#cat-menu').toggleClass('clicked');
   });
-  $("#cat-button").click(function(){ 
+  $("#cat-button").click(function(){
     $(this).toggleClass('clicked');
   }); 
   $(document).mouseup(function (e) {
