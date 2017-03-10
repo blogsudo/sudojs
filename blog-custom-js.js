@@ -47,7 +47,7 @@ $(document).ready(function(){
       if (!main_container.is(e.target) && !main_container.is('#cat-button') 
         && main_container.has(e.target).length === 0)
       {
-        main_container.hide();
+        //main_container.hide();
         $("#cat-menu").removeClass('clicked');
       } 
   });
