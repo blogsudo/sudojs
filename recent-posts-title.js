@@ -34,7 +34,7 @@ function showrecentposts_3(b) {
     }
 }
 
-function showrecentposts_3(b) {
+function showrecentposts_4(b) {
     numposts = b.feed.entry.length;
     for (var a = 0; a < numposts; a++) {
         var c = title_first_part(b, a),
