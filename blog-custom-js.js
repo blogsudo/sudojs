@@ -4,6 +4,12 @@ var trackOutboundLink = function(url) {
      'hitCallback': function(){}
    });
 }
+var trackOutboundLinkWithLabel = function(url, category, action, label) {
+   ga('send', 'event', category, action, label, {
+     'transport': 'beacon',
+     'hitCallback': function(){}
+   });
+}
 $(document).ready(function(){
   var domain = window.location.hostname;
   // Change style 
