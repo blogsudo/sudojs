@@ -51,6 +51,9 @@ $(document).ready(function(){
   else {
     $('.breadcrumbs + .blog-posts #content-left').before('<div class="product-row" id="product-top"><div class="top-product-details clearfix"><iframe src="https://lap.lazada.com/banner/dynamic.php?banner_id=589347eacf3a5&theme=1&p=1" frameborder="0" scrolling="no"></iframe></div></div>');
   }
+  // Change price text
+  $('a.buy-now').text('Xem giá');
+  
   $('.sushop').html('<span style="position: relative;top: -1px;">» </span><a href="http://bit.ly/h_xa_hang_phut_chot_lazada" target="_blank" rel="nofollow">Xả hàng phút chót tại Lazada</a>, xem và mua ngay để không bỏ lỡ khuyến mãi khủng!');
   // Change image size
   if($('.post.first:first-child .post-i .main-img img').length != 0) {
