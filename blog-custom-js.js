@@ -58,7 +58,7 @@ $(document).ready(function(){
     
   }
   else {
-   $('.breadcrumbs + .blog-posts #content-left').before('<div class="product-row image-banner" id="product-top"><div class="top-product-details clearfix"><div class="product-row" style="padding-top: 20px"><div class="product-row" cat="ca-canh"><div class="product-details clearfix" style="border:0;margin:0;padding:0"><div class="product-col" style="border-left:0"><div class="product-wrapper"><a rel="nofollow" target="_blank" onclick="trackOutboundLinkWithLabel(\'https://goo.gl/o0YHld\',\'Vietravel\',\'click\',\'DU LỊCH GIỜ CHÓT - GIÁ CỰC HẤP DẪN (Top Banner): https://goo.gl/o0YHld\');" href="https://goo.gl/o0YHld"><img src="https://lh3.googleusercontent.com/-KIvPJDI6c5c/WMpSgugeMBI/AAAAAAABCnM/FazBVRpd2oA/s617/YyMHuM9.png" /></a></div></div></div></div></div></div></div>');
+   $('.breadcrumbs + .blog-posts #content-left').before('<div class="product-row banner-image" id="product-top"><div class="top-product-details clearfix"><div class="product-row"><div class="product-row"><div class="product-details clearfix" style="border:0;margin:0;padding:0"><div class="product-col" style="border-left:0"><div class="product-wrapper"><a rel="nofollow" target="_blank" onclick="trackOutboundLinkWithLabel(\'https://goo.gl/o0YHld\',\'Vietravel\',\'click\',\'DU LỊCH GIỜ CHÓT - GIÁ CỰC HẤP DẪN (Top Banner): https://goo.gl/o0YHld\');" href="https://goo.gl/o0YHld"><img src="https://lh3.googleusercontent.com/-KIvPJDI6c5c/WMpSgugeMBI/AAAAAAABCnM/FazBVRpd2oA/s617/YyMHuM9.png" /></a></div></div></div></div></div></div></div>');
   }
   // Change price text
   $('a.buy-now').text('Xem giá');
