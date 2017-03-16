@@ -16,7 +16,7 @@ $(document).ready(function(){
   $('.widget .post-body ul').prev().find('br:last-child').css('display','none');
   $('.widget .post-body ul').prev().find('br:last-child').prev().css('line-height','40px');
   // Add fonts
-  $('head link').eq(0).before('<link href="https://fonts.googleapis.com/css?family=Roboto|Quicksand:300,400&subset=vietnamese,latin-ext" rel="stylesheet">');
+  $('head link').eq(0).before('<link href="https://fonts.googleapis.com/css?family=Roboto:700|Quicksand:300,400&subset=vietnamese,latin-ext" rel="stylesheet">');
   $('head').append('<style type="text/css">body{font-family:\'Roboto\',sans-serif;font-weight:400}strong{font-family:\'Roboto\',sans-serif;font-weight:700}.footer-menu a.menu-title,.is-loading,#cssmenu>ul>li>a,#cssmenu>ul>li>span.no-link{font-family:\'Quicksand\',sans-serif;font-weight:400}.title-summary .entry-title,h2.post-title a,h3.post-title a{font-family:\'Quicksand\',Arial,sans-serif!important;font-weight:400}h1,h2,h3,h4,h5,h6{font-family:\'Quicksand\',Arial,sans-serif;font-weight:400}</style>');
   // Hover effect
   $("#cat-menu li.has-sub ul").hover(function() {
